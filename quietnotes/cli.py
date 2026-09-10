@@ -2,7 +2,7 @@
 import sys
 import time
 
-from . import store
+from . import notes_store as store
 
 
 def main(argv: list[str] | None = None) -> int:
